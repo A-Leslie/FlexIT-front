@@ -7,7 +7,7 @@ function Navbar() {
     <div>
         <div className='bg-blue-default flex p-4'>
             
-               <div className='title text-white font-bold text-2xl'> 
+               <div className='title text-white font-bold text-2xl ml-20'> 
                Flex.IT
                </div>
                <ul className='flex gap-10 text-white ml-80 '>
