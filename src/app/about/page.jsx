@@ -6,7 +6,7 @@ import {CommandLineIcon,GlobeAltIcon,UserCircleIcon,MagnifyingGlassIcon,WrenchSc
 
 function About() {
   return (
-    <div className='bg-purple-side h-screen w-full'>
+    <div className='bg-purple-side lg:h-screen w-full'>
     <div className=' flex ml-16'>
          <div className="title">
       <h2 className='text-blue-light font-medium text-lg mt-9'>. About us .</h2>
@@ -16,8 +16,8 @@ function About() {
     </div>
  
 <div className='w-12/12 flex'>
-    <div className='cards  ml-10 w-6/12'>
-      <div className='mr-20 flex'>
+    <div className='cards  ml-10 lg:w-6/12'>
+      <div className='lg:mr-20 md:mr-20 lg:flex md:flex'>
         <Card
       icon={<CommandLineIcon className='w-7'/>} 
       title="First on the field"
@@ -32,7 +32,7 @@ function About() {
     />
       </div>
        
-    <div className='mr-20 flex'>
+    <div className='lg:mr-20 md:mr-20 lg:flex md:flex'>
        <Card
       icon={<CommandLineIcon className='w-7'/>} 
       title="World wide services"
@@ -46,17 +46,17 @@ function About() {
       readMoreLink="/read-more"
     />
     </div>
-    <button className='py-2 h-12 px-8 mt-16 ml-10 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light '>Get in touch 
+    <button className='py-2 h-12 px-8 lg:mt-16 md:mt-16 mt-5 mb-16 ml-10 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light'>Get in touch 
       </button>  
     
     </div>
-    <div className="image">
+    <div className="image lg:block hidden">
     <Image
           src={home}
           width={700}
           height={500}
           alt="image"
-          className='mr-20'
+          className='lg:mr-20 md:mr-56 '
         />
     </div>
 </div>
