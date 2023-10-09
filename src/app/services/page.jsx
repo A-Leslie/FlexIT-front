@@ -3,7 +3,7 @@ import Card from './card';
 import {CommandLineIcon,GlobeAltIcon,UserCircleIcon,MagnifyingGlassIcon,WrenchScrewdriverIcon,ArrowRightIcon} from '@heroicons/react/24/outline'
 function Services() {
   return (
-    <div className='bg-purple-side lg:h-screen md:h-screen h-[2300px] w-full'>
+    <div className='bg-purple-side lg:h-full md:h-screen h-[2300px] w-full'>
       <div className=' lg:flex md:flex pt-1 ml-16'>
            <div className="title">
         <h2 className='text-blue-light font-medium text-lg mt-9'>. Services .</h2>
@@ -11,7 +11,7 @@ function Services() {
        <p className='text-white font-white text-md lg:w-8/12 md:w-8/12 w-12/12  mt-3 mb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis laborum</p>
       </div>
       
-        <button className='py-2 h-12 px-8 lg:mt-24 md:mt-24 my-5 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light lg:ml-[650px]'>See all services 
+        <button className='py-2 h-12 px-8 lg:mt-24 md:mt-24 my-5 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light lg:ml-[400px]'>See all services 
       <span>
       <ArrowRightIcon className='w-4 text-white my-2 mx-2'/>
         </span>

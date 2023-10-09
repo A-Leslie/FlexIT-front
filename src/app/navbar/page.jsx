@@ -10,7 +10,7 @@ function Navbar() {
                <div className='title text-white font-bold text-2xl md:ml-20 lg:ml-20 ml-10'> 
                Flex.IT
                </div>
-               <ul className='lg:flex lg:gap-10 text-white lg:ml-80 hidden  '>
+               <ul className='lg:flex lg:gap-10 text-sm text-white lg:ml-56 hidden  '>
                  <li>
             <Link href="/">Home</Link>
                </li>

@@ -6,7 +6,7 @@ import {CommandLineIcon,GlobeAltIcon,UserCircleIcon,MagnifyingGlassIcon,WrenchSc
 
 function About() {
   return (
-    <div className='bg-purple-side lg:h-screen w-full'>
+    <div className='bg-purple-side lg:h- w-full'>
     <div className=' flex ml-16'>
          <div className="title">
       <h2 className='text-blue-light font-medium text-lg mt-9'>. About us .</h2>
@@ -16,7 +16,7 @@ function About() {
     </div>
  
 <div className='w-12/12 flex'>
-    <div className='cards  ml-10 lg:w-6/12'>
+    <div className='cards  ml-10 lg:w-8/12'>
       <div className='lg:mr-20 md:mr-20 lg:flex md:flex'>
         <Card
       icon={<CommandLineIcon className='w-7'/>} 
