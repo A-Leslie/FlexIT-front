@@ -1,8 +1,14 @@
+"use client"
 import React from 'react'
-import Link from 'next/link'
 import { MagnifyingGlassIcon,SunIcon} from '@heroicons/react/24/outline'
 
 function Navbar() {
+   const scrollToSection = (sectionId) => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
   return (
     <div>
         <div className='bg-blue-default flex p-4'>
@@ -11,30 +17,30 @@ function Navbar() {
                Flex.IT
                </div>
                <ul className='lg:flex lg:gap-10 text-sm text-white lg:ml-56 hidden  '>
-                 <li>
-            <Link href="/">Home</Link>
-               </li>
-               <li>
-            <Link href="/service">Services</Link>
-               </li>
-               <li>
-            <Link href="/about">About</Link>
-               </li>
-               <li>
-            <Link href="/port">Portfolio</Link>
-               </li>
-               <li>
-            <Link href="/price">Pricing</Link>
-               </li>
-               <li>
-                <Link href="/testimony">Testimonials</Link>
-               </li>
-               <li>
-                <Link href="/faq">FAQ</Link>
-               </li>
-               <li>
-            <Link href="/contact">Contact Us</Link>
-               </li>
+                
+        <li>
+          <button onClick={() => scrollToSection('home')}>Home</button>
+        </li>
+        <li>
+          <button onClick={() => scrollToSection('services')}>Services</button>
+        </li>
+        <li>
+          <button onClick={() => scrollToSection('about')}>About</button>
+        </li>
+        <li>
+          <button onClick={() => scrollToSection('portfolio')}>Portfolio</button>
+        </li>
+        <li>
+          <button onClick={() => scrollToSection('testimonial')}>Testimonials</button>
+        </li>
+        <li>
+          <button onClick={() => scrollToSection('pricing')}>Pricing</button>
+        </li>
+        <li>
+          <button onClick={() => scrollToSection('contact')}>Contact Us</button>
+        </li>
+        
+        
             
                </ul>
                <div className='flex gap-5 lg:ml-20 md:ml-[500px] lg:ml-20 ml-32'>

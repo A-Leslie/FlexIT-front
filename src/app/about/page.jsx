@@ -6,7 +6,10 @@ import {CommandLineIcon,GlobeAltIcon,UserCircleIcon,MagnifyingGlassIcon,WrenchSc
 
 function About() {
   return (
-    <div className='bg-purple-side lg:h- w-full'>
+    <div className='bg-purple-side lg:w-full'>
+      <div className='w-full bg-purple-default h-40 ' style={{
+        clipPath: 'polygon(0% 0, 0% 80%, 100% 80%)',
+      }}></div>
     <div className=' flex ml-16'>
          <div className="title">
       <h2 className='text-blue-light font-medium text-lg mt-9'>. About us .</h2>
@@ -46,8 +49,6 @@ function About() {
       readMoreLink="/read-more"
     />
     </div>
-    <button className='py-2 h-12 px-8 lg:mt-16 md:mt-16 mt-5 mb-16 ml-10 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light'>Get in touch 
-      </button>  
     
     </div>
     <div className="image lg:block hidden">
