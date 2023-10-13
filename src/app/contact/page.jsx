@@ -6,9 +6,6 @@ import Image from 'next/image';
 function Contact() {
   return (
     <div className='bg-purple-side lg:w-full lg:'>
-      <div className='w-full bg-purple-default h-40 ' style={{
-        clipPath: 'polygon(100% 0, 0% 80%, 100% 80%)',
-      }}></div>
     <div className=' flex ml-16'>
          <div className="title">
       <h2 className='text-blue-light font-medium text-lg mt-9'>. Contact us .</h2>

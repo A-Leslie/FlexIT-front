@@ -58,6 +58,9 @@ function Services() {
       />
    
       </div>
+      <div className='w-full bg-purple-default h-40 ' style={{
+        clipPath: 'polygon(0% 0, 0% 80%, 100% 80%)',
+      }}></div>
      
     </div>
   )

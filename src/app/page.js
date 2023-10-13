@@ -21,12 +21,12 @@ function page() {
      <section id='about'>
        <About/>
      </section>
-      {/* <section id='portfolio'>
+      <section id='portfolio'>
        <Portfolio/>
-      </section> */}
-      {/* <section id='pricing'>
+      </section>
+      <section id='pricing'>
         <Pricing/>
-      </section> */}
+      </section>
       <section id='testimonial'>
       <Testimonial/>
      </section>

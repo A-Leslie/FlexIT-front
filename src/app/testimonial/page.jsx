@@ -13,7 +13,6 @@ function Testimonial() {
       <h1 className='text-white font-semibold lg:text-4xl md:text-4xl text-2xl'>Testimonials from successful clients </h1>
      <p className='text-white font-white text-md lg:w-8/12 md:w-8/12 w-12/12  mt-3 mb-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis laborum</p>
     </div>
-    
       <button className='py-2 h-12 px-8 lg:mt-24 md:mt-24 my-5 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light lg:ml-[400px]'>View all
     <span>
     <ArrowRightIcon className='w-4 text-white my-2 mx-2'/>
@@ -44,7 +43,9 @@ function Testimonial() {
 
       />
 </div>
-   
+<div className='w-full bg-purple-default h-40 ' style={{
+        clipPath: 'polygon(100% 0, 0% 80%, 100% 80%)',
+      }}></div>
    
   </div>
   )
