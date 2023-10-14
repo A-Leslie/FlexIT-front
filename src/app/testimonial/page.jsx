@@ -44,7 +44,7 @@ function Testimonial() {
       />
 </div>
 <div className='w-full bg-purple-default h-40 ' style={{
-        clipPath: 'polygon(100% 0, 0% 80%, 100% 80%)',
+        clipPath: 'polygon(0% 0, 0% 80%, 100% 80%)',
       }}></div>
    
   </div>

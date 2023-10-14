@@ -7,6 +7,7 @@ import Portfolio from './portfolio/page'
 import Pricing from './pricing/page'
 import Contact from './contact/page'
 import Testimonial from './testimonial/page'
+import Footer from './footer/page'
 
 function page() {
   return (
@@ -34,8 +35,9 @@ function page() {
        <Contact/>
      </section>
 
-      
-     
+     <section id='contact'>
+       <Footer/>
+     </section>
     </div>
   )
 }
