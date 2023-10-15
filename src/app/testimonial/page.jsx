@@ -6,7 +6,7 @@ import rating from '../../../public/assets/rating.png'
 
 function Testimonial() {
   return (
-    <div className='bg-purple-side lg:h-full md:h-screen h-[2300px] w-full'>
+    <div className='bg-purple-side lg:h-full md:h-screen  w-full'>
     <div className=' lg:flex md:flex pt-1 ml-16'>
          <div className="title">
       <h2 className='text-blue-light font-medium text-lg mt-9'>. Testimony .</h2>
