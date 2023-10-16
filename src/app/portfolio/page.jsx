@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import port2 from '../../../public/assets/port2.jpeg'
 
@@ -16,7 +15,7 @@ function Portfolio() {
         <p className='text-white font-white text-md lg:w-10/12 md:w-6/12 w-12/12  mt-3 mb-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta saepe, nam illo iure quaerat odio velit voluptas distinctio, natus ab sequi facilis nostrum adipisci cumque voluptates. Distinctio amet asperiores quam?</p>
         <button className='h-10 w-4/12 bg-blue-light rounded-3xl my-4 bg-blue-light mx-2 text-white font-bold'>View all works</button>
         </div>
-        <div className="grid grid-cols-2 mr-32 gap-4">
+        <div className="grid lg:grid-cols-2 md:4/12 md:grid-cols-2 mr-32 gap-4">
         <Image
           src={port2}
           width={500}

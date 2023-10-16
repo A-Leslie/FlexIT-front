@@ -4,7 +4,7 @@ import {ArrowRightIcon} from '@heroicons/react/24/outline'
 
 const Card = ({ title,price, desc,icon,info1,info2,info3,info4,color,coloB,coloT}) => {
   return (
-    <div className={`w-10/12 rounded overflow-hidden bg-${color} text-${coloT}  border border-blue-light m-4`}>
+    <div className={`w-10/12 rounded overflow-hidden bg-${color} text-${coloT}  border border-4 border-blue-default shadow-xl m-4`}>
       <div className="px-2 pt-10 ml-8 ">
         <div className="font-bold text-xl text-white mb-2">{title}</div>
         <div className="font-bold text-3xl text-blue-light mb-2 ">{price} <span className='text-lg font-medium text-white '>/month</span> </div>
@@ -26,7 +26,7 @@ const Card = ({ title,price, desc,icon,info1,info2,info3,info4,color,coloB,coloT
         <div className="font-semibold text-sm text-white">{info4}</div>
         </div>
       </div> 
-      <button className={`h-10 w-8/12 bg-blue-light rounded-3xl my-4 bg-${coloB} mx-12`}>Choose plan</button>
+      <button className={`h-10 w-8/12 bg-blue-light rounded-3xl font-bold text-blue-default my-4 bg-${coloB} mx-12`}>Choose plan</button>
     </div>
   );
 };

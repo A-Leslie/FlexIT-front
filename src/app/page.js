@@ -35,7 +35,7 @@ function page() {
        <Contact/>
      </section>
 
-     <section id='contact'>
+     <section id='footer'>
        <Footer/>
      </section>
     </div>

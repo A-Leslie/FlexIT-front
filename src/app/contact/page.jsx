@@ -28,8 +28,8 @@ function Contact() {
 <form action="post">
 <p className='text-white font-white text-md w-8/12 mt-3 mb-5'>Fill this form</p>
   <input type="text" className='w-80 h-10 bg-purple-side outline border border-blue-light rounded text-white pl-2' placeholder='Email' />
-  <input type="text" className='w-80 h-10 bg-purple-side outline border border-blue-light rounded text-white pl-2 mt-6' placeholder='Password' />
-  <button className='py-2 h-10 w-80 px-8 lg:mt-6 justify-center  md:mt-16 mt-5 mb-16 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light'>Get in touch </button>  
+  <input type="text" className='w-80 h-10 bg-purple-side outline border border-blue-light rounded text-white pl-2 mt-6 md:ml-10' placeholder='Password' />
+  <button className='py-2 h-10 w-80 px-8 lg:mt-6 justify-center  md:mt-8 mt-5 mb-16 text-white flex  rounded-tr-xl rounded-bl-xl bg-blue-light'>Get in touch </button>  
 </form>
   </div>
    
