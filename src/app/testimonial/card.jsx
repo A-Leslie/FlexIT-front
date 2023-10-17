@@ -10,7 +10,7 @@ const Card = ({ rate, photo, name, desc }) => {
           src={rate}
           alt="image"
           height="120"
-          className='ml-40'
+          className='lg:ml-40 md:ml-40 ml-32'
         />
         </div>
      

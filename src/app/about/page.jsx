@@ -2,11 +2,11 @@ import React from 'react'
 import Card from './card';
 import home from '../../../public/assets/home2.png'
 import Image from 'next/image';
-import {CommandLineIcon,GlobeAltIcon,UserCircleIcon,MagnifyingGlassIcon,WrenchScrewdriverIcon,ArrowRightIcon} from '@heroicons/react/24/outline'
+import {CommandLineIcon,GlobeAltIcon,UserCircleIcon} from '@heroicons/react/24/outline'
 
 function About() {
   return (
-    <div className='bg-purple-side lg:w-full'>
+    <div className='bg-purple-side md:h-[800px] lg:w-full'>
     <div className=' flex ml-16'>
          <div className="title">
       <h2 className='text-blue-light font-medium text-lg mt-9'>. About us .</h2>
@@ -58,7 +58,7 @@ function About() {
         />
     </div>
 </div>
-<div className='w-full bg-purple-default h-40 ' style={{
+<div className='lg:w-full lg:bg-purple-default lg:h-40 ' style={{
         clipPath: 'polygon(100% 0, 0% 80%, 100% 80%)',
       }}></div>
    

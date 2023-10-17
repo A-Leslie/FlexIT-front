@@ -3,7 +3,7 @@ import Card from './card';
 import {CommandLineIcon,GlobeAltIcon,UserCircleIcon,MagnifyingGlassIcon,WrenchScrewdriverIcon,ArrowRightIcon} from '@heroicons/react/24/outline'
 function Services() {
   return (
-    <div className='bg-purple-side lg:h-full md:h-screen h-[2300px] w-full'>
+    <div className='bg-purple-side lg:h-full md:h-[1100px] h-[2300px] w-full'>
       <div className=' lg:flex md:flex pt-1 ml-16'>
            <div className="title">
         <h2 className='text-blue-light font-medium text-lg mt-9'>. Services .</h2>
@@ -58,7 +58,7 @@ function Services() {
       />
    
       </div>
-      <div className='w-full bg-purple-default h-40 ' style={{
+      <div className='lg:w-full lg:bg-purple-default lg:h-40 ' style={{
         clipPath: 'polygon(0% 0, 0% 80%, 100% 80%)',
       }}></div>
      

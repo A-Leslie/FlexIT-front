@@ -38,7 +38,7 @@ function Testimonial() {
         <Card
           rate={rating}
           photo={profile}
-          name="Eddy Vox"
+          name="Ally Soud"
           desc="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invid id. Lorem ipsum dolor sit amet, consectet"
         />
         <Card
@@ -56,7 +56,7 @@ function Testimonial() {
         <Card
           rate={rating}
           photo={profile}
-          name="Eddy Vox"
+          name="Ally Soud"
           desc="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor invid id. Lorem ipsum dolor sit amet, consectet"
         />
       </div>

@@ -26,7 +26,7 @@ const Card = ({ title,price, desc,icon,info1,info2,info3,info4,color,coloB,coloT
         <div className="font-semibold text-sm text-white">{info4}</div>
         </div>
       </div> 
-      <button className={`h-10 w-8/12 bg-blue-light rounded-3xl font-bold text-blue-default my-4 bg-${coloB} mx-12`}>Choose plan</button>
+      <button className='h-10 text-white w-8/12 bg-blue-light rounded-3xl font-bold text- my-4  mx-12'>Choose plan</button>
     </div>
   );
 };
