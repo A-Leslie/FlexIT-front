@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&display=swap');
-  
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+} 
+
   @keyframes marquee {
     0% {
       transform: translateX(0%);
@@ -17,7 +20,4 @@
     animation: marquee 10s linear infinite;
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&display=swap');
-body {
-  font-family: 'Poppins', sans-serif;
-}
+
