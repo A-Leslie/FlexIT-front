@@ -22,7 +22,7 @@ function Testimonial() {
         </button>
       </div>
 
-      <div className='lg:flex lg:w-[2300px] md:w-full gap-5 ml-10 lg:marquee'>
+      <div className='lg:flex lg:w-[2300px] md:w-full gap-5 ml-10 marquee'>
         <Card
           rate={rating}
           photo={profile}
